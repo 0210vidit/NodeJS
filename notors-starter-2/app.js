@@ -9,6 +9,8 @@ app.post('/', (req, res) => {
   res.send('You can post to this endpoint');
 });
 
+app.patch('/');
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
